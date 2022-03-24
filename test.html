@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(255, 147, 147);
+        }
+        
+        .div-style {
+            width: 400px;
+            border: solid 1px black;
+            padding: 1em;
+            background-color: white;
+        }
+        
+        @media screen and (max-width :900px) {
+            body {
+                background-color: rgb(169, 255, 147) !important;
+            }
+            .div-style {
+                width: 200px;
+                border: solid 1px black;
+                padding: 1em;
+                background-color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    This is test page
+
+    <div class="div-style">
+        this is the box
+    </div>
+</body>
+
+</html>
